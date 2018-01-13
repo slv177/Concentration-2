@@ -31,11 +31,27 @@
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jsJ-VT-EUD"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxh-MM-SVE">
+                                <rect key="frame" x="160.5" y="20" width="54" height="132"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dxh-MM-SVE" secondAttribute="height" multiplier="31:44" id="NC0-AB-taP"/>
+                                    <constraint firstAttribute="width" secondItem="dxh-MM-SVE" secondAttribute="height" multiplier="31:44" id="uu1-Lg-QKG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="🍭"/>
+                                <connections>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="00C-4z-NxX"/>
+                                    <action selector="touchSecondCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y9Y-lc-t9E"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="DeP-E8-B8c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2Xv-wP-lm9"/>
+                            <constraint firstItem="dxh-MM-SVE" firstAttribute="width" secondItem="dxh-MM-SVE" secondAttribute="height" multiplier="31:44" id="EDz-s6-JVN"/>
                             <constraint firstItem="DeP-E8-B8c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="MuW-h7-h4d"/>
+                            <constraint firstItem="dxh-MM-SVE" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ks7-Pc-DoQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
